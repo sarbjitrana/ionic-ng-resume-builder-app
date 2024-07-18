@@ -27,7 +27,7 @@ This project is a resume builder application built with Ionic and Angular for th
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/ionic-resume-builder-backend.git
+   git clone https://github.com/sarbjitrana/ionic-resume-builder-backend.git
    cd ionic-resume-builder-backend
    ```
 
@@ -55,8 +55,8 @@ This project is a resume builder application built with Ionic and Angular for th
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/ionic-resume-builder-frontend.git
-   cd ionic-resume-builder-frontend
+   git clone https://github.com/sarbjitrana/ionic-ng-resume-builder-app.git
+   cd onic-ng-resume-builder-app
    ```
 
 2. Install dependencies:
