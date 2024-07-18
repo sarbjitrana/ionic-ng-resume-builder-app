@@ -105,5 +105,3 @@ The backend API provides the following endpoints:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-
-Make sure to replace the placeholder repository URLs with the actual URLs of your repositories. Also, update the `environment.ts` file path and other details as necessary based on your project structure.
