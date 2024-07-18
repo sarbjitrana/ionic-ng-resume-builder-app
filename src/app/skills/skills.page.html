@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Skills</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (submit)="saveSkills()">
+    <div *ngFor="let skill of skills; let i = index">
+      <ion-item>
+        <ion-label position="floating">Skill</ion-label>
+        <ion-input [(ngModel)]="skill.skill" name="skill{{i}}"></ion-input>
+      </ion-item>
+      <ion-button expand="full" color="danger" (click)="removeSkill(i)">Remove</ion-button>
+    </div>
+    <ion-button expand="full" (click)="addSkill()">Add Skill</ion-button>
+    <ion-button expand="full" type="submit">Save</ion-button>
+  </form>
+</ion-content>
