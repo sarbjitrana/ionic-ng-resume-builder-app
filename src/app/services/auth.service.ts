@@ -4,13 +4,15 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
 import { tap } from 'rxjs/operators';
-
+import { environment } from '../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
   private token: any = null;
-  private apiUrl = 'http://localhost:3000';
+  //private apiUrl = 'http://localhost:3000';
+  private apiUrl = environment.apiUrl; // Update with your NestJS API URL
+  
   private authStatusListener = new BehaviorSubject<boolean>(false);
 
   constructor(private http: HttpClient, private router: Router) {}
