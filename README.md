@@ -27,8 +27,8 @@ This project is a resume builder application built with Ionic and Angular for th
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/sarbjitrana/ionic-resume-builder-backend.git
-   cd ionic-resume-builder-backend
+   git clone https://github.com/sarbjitrana/rest-api-setup-nestjs.git
+   cd rest-api-setup-nestjs
    ```
 
 2. Install dependencies:
@@ -56,7 +56,7 @@ This project is a resume builder application built with Ionic and Angular for th
 
    ```sh
    git clone https://github.com/sarbjitrana/ionic-ng-resume-builder-app.git
-   cd onic-ng-resume-builder-app
+   cd ionic-ng-resume-builder-app
    ```
 
 2. Install dependencies:
@@ -105,5 +105,3 @@ The backend API provides the following endpoints:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-
-Make sure to replace the placeholder repository URLs with the actual URLs of your repositories. Also, update the `environment.ts` file path and other details as necessary based on your project structure.
